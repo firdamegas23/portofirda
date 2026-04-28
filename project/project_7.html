@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Firda</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="../index.html" style="color: black;">My Portofolio</a>
+
+    <!-- Button mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+       <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+     <div class="collapse navbar-collapse" id="navbarNav">
+        <!-- <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+            </li>
+        </ul> -->
+     </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="project-hero d-flex text-black">
+    <div class="container">
+        <!-- FOTO -->
+        <h1 class="fw-bold" data-aos="fade-up">Aglaonema Detection</h1>
+        <h2 data-aos="fade-up" data-aos-delay="200">Scan system—identify the differences.</2>
+        <img src="../assets/project-7.1.png" alt="project-1" class="img-fluid rounded">
+    </div>
+</section>
+
+<!-- Details -->
+<section class="container py-5">
+    <div class="row" data-aos="fade-up" >
+        
+        <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="fw-bold">About Project</h4>
+            <p>
+                An object detection system developed to identify and classify various types of Aglaonema plants using image recognition technology. <br>
+                The system is capable of distinguishing between visually similar and non-similar plant categories, including Ruby Garuda, Red Anjamani, Red Kochin, Claudia, and Siam Aurora, as well as non-Aglaonema plants. <br> 
+                This project was developed as a final thesis project as a requirement for graduation.
+            </p>
+        </div>
+
+        <div class="col-md-6 mb-5" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="fw-bold">My Role</h4>
+            <p>Independently developed the system</p>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="fw-bold">Features</h4>
+            <ul>
+                <li>Real-time object detection using camera input</li>
+                <li>Image classification for multiple Aglaonema categories</li>
+                <li>Detection from uploaded images</li>
+                <li>Ability to distinguish similar and non-similar plant types</li>
+                <li>Bounding box detection and labeling of objects</li>
+                <li>Prediction results with classification output</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <h4 class="fw-bold">Tech Stack</h4>
+            <ul>
+                <li>Python</li>
+                <li>TensorFlow</li>
+                <li>OpenCV</li>
+                <li>LabelImg</li>
+                <li>Jupyter Notebook</li>
+                <li>Anaconda Navigator</li>
+                <li>CUDA &cuDNN</li>
+            </ul>
+        </div>
+        
+    </div>
+</section>
+
+<!-- Video -->
+<section class="container py-5 align-items-center text-center">
+    <div class="row mb-5" data-aos="fade-up" >
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="200">
+            <!-- <video width="100%" height="600px" controls>
+                <source src="../assets/demo-tanaman.mp4" type="video/mp4">
+                Browser kamu tidak support video.
+            </video> -->
+            <iframe 
+                class="rounded shadow"
+                width="100%" 
+                height="560"
+                src="https://www.youtube.com/embed/5UCUy3LP53U"
+                frameborder="0"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white text-center p-3">
+    © 2026 Firda
+</footer>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../script.js"></script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
